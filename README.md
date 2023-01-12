@@ -6,7 +6,7 @@
 
 ## What is this ?
 
-This is a trello clone (frontend task) built using React.js, Redux, React-Hooks, react-beautiful & material-ui & local-storage for storing the data.
+This is a trello clone (frontend task) built using React.js, Redux, React-Hooks, react-beautiful, material-ui & local-storage for data storage.
 
 ## Features:
 
