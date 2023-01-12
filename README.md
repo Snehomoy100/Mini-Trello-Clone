@@ -1,10 +1,10 @@
-# Mini Trello Clone
+# Mini Trello Clone (Frontend Task for Engineering at [Zuddl.com](https://www.zuddl.com/))
 
 ## Live Link:
 
 * Deployed on Netlify -> https://mini-trello-zuddl-snehomoy.netlify.app/
 
-## Frontend Task for Engineering at Zuddl
+## What is this ?
 
 This is a trello clone (frontend task) built using React.js, Redux, React-Hooks, react-beautiful & material-ui & local-storage for storing the data.
 
