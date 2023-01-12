@@ -1,11 +1,15 @@
 import React, { PureComponent } from "react";
-import TrelloList from "./TrelloList";
+
 import { connect } from "react-redux";
-import TrelloCreate from "./TrelloCreate";
-import { DragDropContext, Droppable } from "react-beautiful-dnd";
-import styled from "styled-components";
-import { sort, setActiveBoard } from "../actions";
 import { Link } from "react-router-dom";
+import { DragDropContext, Droppable } from "react-beautiful-dnd";
+
+import TrelloList from "./TrelloList";
+import TrelloCreate from "./TrelloCreate";
+import { sort, setActiveBoard } from "../actions";
+
+import styled from "styled-components";
+
 
 const ListsContainer = styled.div`
   display: flex;

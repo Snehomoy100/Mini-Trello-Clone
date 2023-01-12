@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { addBoard } from "../actions";
+
 import BoardThumbnail from "./BoardThumbnail";
+
+import styled from "styled-components";
+
 
 const Thumbnails = styled.div`
   flex: 1;
@@ -31,8 +34,8 @@ const CreateTitle = styled.h3`
 
 const CreateInput = styled.input`
   width: 400px;
-  height: 80px;
-  font-size: 22px;
+  height: 40px;
+  font-size: 18px;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 3px;

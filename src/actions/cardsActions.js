@@ -1,5 +1,6 @@
-import { CONSTANTS } from "../actions";
 import uuid from "uuidv4";
+
+import { CONSTANTS } from "../actions";
 
 export const addCard = (listID, text) => {
   const id = uuid();

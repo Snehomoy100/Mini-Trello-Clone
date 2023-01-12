@@ -1,14 +1,16 @@
 import React, { useState } from "react";
+import { connect } from "react-redux";
+import { Draggable } from "react-beautiful-dnd";
+
+import TrelloButton from "./TrelloButton";
+import TrelloForm from "./TrelloForm";
+import { editCard, deleteCard } from "../actions";
+
 import Card from "@material-ui/core/Card";
 import Typography from "@material-ui/core/Typography";
 import CardContent from "@material-ui/core/CardContent";
-import { Draggable } from "react-beautiful-dnd";
 import styled from "styled-components";
 import Icon from "@material-ui/core/Icon";
-import TrelloForm from "./TrelloForm";
-import { editCard, deleteCard } from "../actions";
-import { connect } from "react-redux";
-import TrelloButton from "./TrelloButton";
 
 const CardContainer = styled.div`
   margin: 0 0 8px 0;

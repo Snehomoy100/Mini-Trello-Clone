@@ -1,10 +1,11 @@
 import React from "react";
+
 import styled from "styled-components";
 
 const Thumbnail = styled.div`
   height: 280px;
   width: 280px;
-  background: yellow;
+  background: #CAD5E2;
   padding: 10px;
   margin: 8px;
   display: flex;
@@ -16,8 +17,9 @@ const Thumbnail = styled.div`
 `;
 
 const Title = styled.h4`
-  color: red;
+  color: black;
   text-decoration: none;
+  font-size: 20px;
 `;
 
 const BoardThumbnail = ({ title }) => {
